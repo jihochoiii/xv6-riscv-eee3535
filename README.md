@@ -1,6 +1,12 @@
 - [Assignment 1: Shell](https://github.com/jihochoiii/xv6-riscv-eee3535/tree/shell)
+  - Implemented a simple shell called `ysh` in xv6-riscv
 - [Assignment 2: System Call and Process](https://github.com/jihochoiii/xv6-riscv-eee3535/tree/syscall)
+  - Added a new system call `pstate()` to xv6-riscv
 - [Assignment 3: Scheduling](https://github.com/jihochoiii/xv6-riscv-eee3535/tree/scheduling)
+  - Replaced the round-robin process scheduler of xv6-riscv with a fair-share scheduling algorithm
 - [Assignment 4: Free List](https://github.com/jihochoiii/xv6-riscv-eee3535/tree/freelist)
+  - Replaced the next-fit free list management scheme of xv6-riscv's malloc library with the best-fit policy
 - [Assignment 5: Paging](https://github.com/jihochoiii/xv6-riscv-eee3535/tree/paging)
+  - Modified the paging scheme of xv6-riscv to use the copy-on-write policy for the heap segment pages of user processes
 - [Assignment 6: Thread](https://github.com/jihochoiii/xv6-riscv-eee3535/tree/thread)
+  - Implemented multi-threading features in xv6-riscv
